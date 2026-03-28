@@ -7,5 +7,5 @@ export const environment = {
 
   tokenDisallowedRoutes: [new RegExp('/api/auth/token'), new RegExp('/api/auth/revoke')],
   tokenAllowedDomains: [new RegExp('api.acquamania.com.br')],
-  oauthCallbackUrl: 'https://novax.acquamania.com.br/authorized',
+  oauthCallbackUrl: 'https://nimbussystems.com.br/authorized',
 };
