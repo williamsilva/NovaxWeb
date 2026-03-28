@@ -6,6 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "build:cloudflare": "ng build --configuration production",
+    "preview:cloudflare": "wrangler pages dev dist",
     "test": "ng test"
   },
   "private": true,
